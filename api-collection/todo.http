@@ -1,0 +1,46 @@
+@baseUrl = http://localhost:3000/api
+
+# Get all todo list
+GET {{baseUrl}}/todo
+
+#####
+
+# Get all todo list - pagination
+GET {{baseUrl}}/todo?_page=1&_limit=10
+
+#####
+
+# @name Add todo item
+POST {{baseUrl}}/todo
+Content-Type: application/json
+
+{
+    "name": "New todo",
+    "completed": false
+}
+
+#####
+
+# @name Update to do item
+
+PATCH {{baseUrl}}/todo/045b7804-9880-47d6-9b4e-01990b0d7c4a
+Content-Type: application/json
+
+{
+    "name": "harum consectetur et update",
+    "completed": false
+}
+
+#####
+
+# Delete to do item
+DELETE  {{baseUrl}}/todo/2
+Content-Type: application/json
+
+#####
+
+# Sort
+GET {{baseUrl}}/todo?_sort=createdAt&_order=desc
+
+####
+
