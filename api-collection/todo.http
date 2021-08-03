@@ -34,7 +34,7 @@ Content-Type: application/json
 #####
 
 # Delete to do item
-DELETE  {{baseUrl}}/todo/2
+DELETE  {{baseUrl}}/todo/wyNjS2L
 Content-Type: application/json
 
 #####
