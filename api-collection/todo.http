@@ -10,13 +10,20 @@ GET {{baseUrl}}/todo?_page=1&_limit=10
 
 #####
 
+# Filter todo list by name and status
+GET {{baseUrl}}/todo?_page=1&_limit=10&name_like=
+
+#####
+
 # @name Add todo item
 POST {{baseUrl}}/todo
 Content-Type: application/json
 
 {
     "name": "New todo",
-    "completed": false
+    "completed": false,
+    "isActive": true,
+    "status": "todo"
 }
 
 #####
@@ -28,7 +35,9 @@ Content-Type: application/json
 
 {
     "name": "harum consectetur et update",
-    "completed": false
+    "completed": false,
+    "isActive": true,
+    "status": "todo"
 }
 
 #####
