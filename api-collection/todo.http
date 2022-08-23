@@ -53,3 +53,24 @@ GET {{baseUrl}}/todo?_sort=createdAt&_order=desc
 
 ####
 
+# Register
+POST {{baseUrl}}/register
+Content-Type: application/json
+
+{
+  "email": "azura@mail.com",
+  "password": "@Bcd1234"
+}
+
+####
+
+# Signin
+POST {{baseUrl}}/signin
+Content-Type: application/json
+
+{
+  "email": "azura@mail.com",
+  "password": "@Bcd1234"
+}
+
+####

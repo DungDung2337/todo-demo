@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "faker": "^5.5.3",
-    "json-server": "^0.16.3",
     "query-string": "^7.0.1"
   },
   "name": "antd-toto",
@@ -9,6 +8,8 @@
   "description": "Demo antd-todo",
   "main": "main.js",
   "devDependencies": {
+    "json-server": "^0.17.0",
+    "json-server-auth": "^2.1.0",
     "nodemon": "^2.0.12"
   },
   "scripts": {

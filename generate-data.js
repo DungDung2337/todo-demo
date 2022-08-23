@@ -12,6 +12,8 @@ const randomTodoList = (n) => {
       id: faker.random.uuid(),
       name: faker.lorem.words(),
       completed: faker.random.boolean(),
+      status: "todo",
+      isActive: true,
       createdAt: Date.now(),
       updatedAt: Date.now(),
     };
@@ -27,6 +29,7 @@ const randomTodoList = (n) => {
 
   const db = {
     todo: todoList,
+    users: [],
   };
 
   // write db object to bd.json
