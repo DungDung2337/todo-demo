@@ -22,5 +22,13 @@
     "antd-todo-json-server"
   ],
   "author": "Dung Dung",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DungDung2337/todo-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DungDung2337/todo-demo/issues"
+  },
+  "homepage": "https://github.com/DungDung2337/todo-demo#readme"
 }
